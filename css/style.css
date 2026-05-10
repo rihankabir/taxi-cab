@@ -1,14 +1,25 @@
+/* =========================
+   TOP HEADER RESPONSIVE CSS
+========================= */
+
 .top-header{
     background: #111;
     padding: 12px 0;
     font-size: 14px;
 }
 
+.top-contact{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
 .top-contact a{
     color: #fff;
     text-decoration: none;
-    margin-right: 20px;
     transition: .3s;
+    font-size: 14px;
 }
 
 .top-contact a:hover{
@@ -20,21 +31,77 @@
     margin-right: 6px;
 }
 
+.top-social{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+}
+
 .top-social a{
     width: 35px;
     height: 35px;
     background: #222;
     color: #fff;
-    display: inline-flex;
+    display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 50%;
-    margin-left: 8px;
-    transition: .3s;
     text-decoration: none;
+    transition: .3s;
 }
 
 .top-social a:hover{
     background: #ffc61a;
     color: #000;
+}
+
+
+/* =========================
+   TABLET RESPONSIVE
+========================= */
+
+@media(max-width:991px){
+
+    .top-header{
+        text-align: center;
+    }
+
+    .top-contact{
+        justify-content: center;
+        margin-bottom: 15px;
+    }
+
+    .top-social{
+        justify-content: center;
+    }
+
+}
+
+
+/* =========================
+   MOBILE RESPONSIVE
+========================= */
+
+@media(max-width:576px){
+
+    .top-header{
+        padding: 15px 0;
+    }
+
+    .top-contact{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .top-contact a{
+        font-size: 13px;
+    }
+
+    .top-social a{
+        width: 32px;
+        height: 32px;
+        font-size: 13px;
+    }
+
 }
