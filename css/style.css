@@ -55,7 +55,11 @@
     background: #ffc61a;
     color: #000;
 }
-
+.navbar-brand img{
+     width: 160px;
+    height: auto;
+    object-fit: contain;
+}
 
 /* =========================
    TABLET RESPONSIVE
