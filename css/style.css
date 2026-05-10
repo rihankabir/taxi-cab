@@ -60,7 +60,65 @@
     height: auto;
     object-fit: contain;
 }
+.custom-navbar{
+    background: #fff;
+    padding: 15px 0;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.08);
+}
 
+/* LOGO */
+.logo-img{
+    width: 140px;
+    height: auto;
+}
+
+/* NAV LINKS */
+.navbar-nav .nav-link{
+    color: #111;
+    font-size: 16px;
+    font-weight: 600;
+    transition: .3s;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active{
+    color: #ffc61a;
+}
+
+/* SEARCH ICON */
+.search-icon{
+    width: 42px;
+    height: 42px;
+    background: #f5f5f5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #111;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.search-icon:hover{
+    background: #ffc61a;
+    color: #000;
+}
+
+/* BOOK BUTTON */
+.book-btn{
+    background: #ffc61a;
+    color: #000;
+    padding: 12px 28px;
+    border-radius: 40px;
+    text-decoration: none;
+    font-weight: 700;
+    transition: .3s;
+}
+
+.book-btn:hover{
+    background: #111;
+    color: #fff;
+}
 /* =========================
    TABLET RESPONSIVE
 ========================= */
