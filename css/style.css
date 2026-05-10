@@ -188,6 +188,44 @@
             background: #fff;
             color: #000;
         }
+        /* =========================
+   CUSTOM SLIDER BUTTONS
+========================= */
+
+.slider-controls{
+    position: absolute;
+    right: 50px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.custom-slider-btn{
+    width: 60px;
+    height: 60px;
+    border: none;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.15);
+    backdrop-filter: blur(5px);
+
+    color: #fff;
+    font-size: 20px;
+
+    transition: .3s;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.custom-slider-btn:hover{
+    background: #ffc61a;
+    color: #000;
+}
 /* =========================
    TABLET RESPONSIVE
 ========================= */
@@ -206,7 +244,15 @@
     .top-social{
         justify-content: center;
     }
+   .slider-controls{
+        right: 20px;
+    }
 
+    .custom-slider-btn{
+        width: 50px;
+        height: 50px;
+        font-size: 16px;
+    }
 }
 
 
@@ -259,4 +305,7 @@
                 padding: 12px 25px;
                 font-size: 14px;
             }
+             .slider-controls{
+        display: none;
+    }
 }
