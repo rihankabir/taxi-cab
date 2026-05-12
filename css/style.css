@@ -226,6 +226,10 @@
     background: #ffc61a;
     color: #000;
 }
+.about{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
 /* =========================
    TABLET RESPONSIVE
 ========================= */
