@@ -284,11 +284,13 @@
   display:flex;
   transition:transform .6s ease;
   will-change: transform;
+  
 }
 
 /* each slide takes full width */
 .slide{
   min-width:100%;
+  
 }
 
 /* =========================
@@ -299,6 +301,7 @@
   display:flex;
   gap:25px;
   align-items:stretch;
+  
 }
 
 /* each card equal height */
