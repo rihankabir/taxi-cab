@@ -395,7 +395,16 @@
   background:#000;
   transform:scale(1.3);
 }
-
+.tarrif{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.TRTEXT{
+    color: #ffc61a;
+}
+.TRTEXT1{
+    color: #ffc012;
+}
 /* =========================
    TABLET RESPONSIVE
 ========================= */
