@@ -347,7 +347,7 @@
   left:0;
   width:100%;
   height:5px;
-  background:linear-gradient(to right,#d2f700,#bcff03);
+  background:linear-gradient(to right,#ffe609,#ffef0b);
   transform:scaleX(0);
   transform-origin:left;
   transition:.4s;
@@ -364,7 +364,7 @@
 }
 
 .custom-card:hover h3{
-  color:#b8d800;
+  color:#ffc012;
 }
 
 .custom-card:hover p{
