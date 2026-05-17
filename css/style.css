@@ -557,6 +557,20 @@
 .drivetxt{
     color: #ffc012;
 }
+.car-wrapper{
+    position:relative;
+}
+
+.car{
+    position:absolute;
+
+    bottom:0;
+    right:0;
+left: 100%;
+
+}
+
+
 .drivetxt1{
     font-weight: 700;
 }
