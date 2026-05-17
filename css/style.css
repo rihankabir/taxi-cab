@@ -484,8 +484,24 @@
       font-size:18px;
     }
 .paralax{
+    height: 100vh;
     padding-top: 130px;
     padding-bottom: 130px;
+     background-image:url('../images/paralax background.jpg');
+      background-attachment:fixed;
+      background-position:center;
+      background-repeat:no-repeat;
+      background-size:cover;
+}
+.ptext{
+    color: #f5b400;
+}
+.p1txt{
+    color: #f2f2f2;
+}
+.new{
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 /* =========================
    TABLET RESPONSIVE
