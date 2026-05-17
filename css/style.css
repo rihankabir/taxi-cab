@@ -544,6 +544,16 @@
     padding-top: 100px;
     padding-bottom: 100px;
 }
+.drive-wrapper{
+    display:flex;
+    gap:70px;
+    flex-wrap:wrap;
+}
+
+.drive-column{
+    flex:1;
+    min-width:250px;
+}
 .drivetxt{
     color: #ffc012;
 }
