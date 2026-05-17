@@ -54,3 +54,21 @@ document.querySelector(".custom-slider").addEventListener("mouseleave", () => {
 // init
 updateSlider();
 startAutoPlay();
+
+ $(document).ready(function(){
+
+    $(".car")
+      .css({
+          opacity:0,
+          right:"0",
+          left:"100px"
+      })
+
+      .animate({
+left:"0",
+          right:"0",
+          opacity:1
+
+      },1900);
+
+});
