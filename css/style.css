@@ -499,6 +499,20 @@
 .p1txt{
     color: #f2f2f2;
 }
+.num{
+    display: inline-block;
+    width: 55px;
+    height: 55px;
+    padding: 0px 0px 0px 3px;
+    background-color: #ffc012;
+    color: #f2f2f2;
+    border-radius: 50%;
+    font-size: 18px;
+    font-weight: 700;
+}
+.txtt1{
+    color: #ffc61a;
+}
 .new{
     padding-top: 100px;
     padding-bottom: 100px;
