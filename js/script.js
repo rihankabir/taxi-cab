@@ -68,6 +68,7 @@ $(document).ready(function(){
     nav: false,
     dots: true,
     autoplay: true,
+     autoHeight: true,
     responsive:{
         0:{
             items:1
