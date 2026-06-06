@@ -632,6 +632,11 @@
 .testimonial:hover{
     box-shadow: 0 0 15px rgba(2, 206, 241, 0.1);
 }
+.promo{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    
+}
 /* =========================
    TABLET RESPONSIVE
 ========================= */
