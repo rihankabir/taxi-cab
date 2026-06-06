@@ -195,7 +195,9 @@ body{
         /* =========================
    CUSTOM SLIDER BUTTONS
 ========================= */
-
+.hero-slider{
+    padding-bottom: 40px;
+}
 .slider-controls{
     position: absolute;
     right: 50px;
