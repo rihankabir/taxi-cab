@@ -792,17 +792,8 @@
         font-size:45px;
       }
      .hero-content{
-
-        width: 90%;
-
-        left: 50%;
-
         top: 50%;
-
-        transform: translate(-50%, -50%);
-
         text-align: center;
-
     }
 
     .hero-content h1{
