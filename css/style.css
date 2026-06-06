@@ -1,3 +1,7 @@
+html,
+body{
+    overflow-x:hidden;
+}
 /* =========================
    TOP HEADER RESPONSIVE CSS
 ========================= */
@@ -546,7 +550,7 @@
 }
 .drive-wrapper{
     display:flex;
-    gap:70px;
+    gap:40px;
     flex-wrap:wrap;
 }
 
@@ -632,7 +636,7 @@
 .testimonial:hover{
     box-shadow: 0 0 15px rgba(2, 206, 241, 0.1);
 }
-.promo{
+.promod{
     padding-top: 60px;
     padding-bottom: 60px;
 
@@ -704,11 +708,89 @@
       }
       .drive-wrapper {
     display: flex;
-    gap: 70px;
+    gap: 40px;
    
 }
 }
+@media (max-width: 767px){
 
+    .drive-wrapper{
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .drive-column{
+        width: 100%;
+    }
+
+    .drive-box{
+        margin-top: 20px !important;
+    }
+
+    .drivetxt{
+        font-size: 20px;
+        text-align: center !important;
+    }
+
+    .drivetxt1{
+        font-size: 34px;
+        text-align: center !important;
+        line-height: 1.3;
+    }
+
+    .dritxt{
+        text-align: center !important;
+        font-size: 16px;
+    }
+
+    .promo{
+        width: 55px;
+        height: 55px;
+    }
+
+    .num{
+        font-size: 22px;
+    }
+
+    .txtt1{
+        font-size: 20px;
+    }
+
+    .car{
+        margin-top: 40px !important;
+    }
+
+    .car img{
+        width: 100%;
+        max-width: 350px;
+    }
+ .hero-content{
+
+        width: 90%;
+
+        left: 50%;
+
+        top: 50%;
+
+        transform: translate(-50%, -50%);
+
+        text-align: center;
+
+    }
+
+    .hero-content h1{
+
+        font-size: 32px;
+
+    }
+
+    .hero-content p{
+
+        font-size: 16px;
+
+    }
+
+}
 
 /* =========================
    MOBILE RESPONSIVE
@@ -735,7 +817,7 @@
         font-size: 13px;
     }
   .slider-img{
-                height: 80vh;
+                height: 100vh;
             }
 
             .custom-caption{
