@@ -635,7 +635,35 @@
 .promo{
     padding-top: 60px;
     padding-bottom: 60px;
-    
+
+}
+.promo-banner{
+    position: relative;
+}
+
+.promo-banner::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,.5);
+}
+.promotxts{
+    color: #f5b400;
+
+}
+.worldtxt{
+    font-size: 60px;
+}
+.cartxt{
+    color:#f5b400;
+}
+.hero-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    z-index: 2;
 }
 /* =========================
    TABLET RESPONSIVE
@@ -763,4 +791,30 @@
       .price{
         font-size:45px;
       }
+     .hero-content{
+
+        width: 90%;
+
+        left: 50%;
+
+        top: 50%;
+
+        transform: translate(-50%, -50%);
+
+        text-align: center;
+
+    }
+
+    .hero-content h1{
+
+        font-size: 32px;
+
+    }
+
+    .hero-content p{
+
+        font-size: 16px;
+
+    }
+
 }
