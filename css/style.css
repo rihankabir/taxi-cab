@@ -694,6 +694,66 @@ overflow: hidden;
     color: white;
     z-index: 2;
 }
+.brands{
+    padding:80px 0;
+    background-color: #f5b400;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.brandtxt1{
+    font-size: 40px;
+    color: #ddd;
+}
+.brandtxt{
+    font-size: 35px;
+}
+.brands img{
+
+    max-width:100%;
+
+    height:auto;
+
+    transition:.3s;
+
+}
+.brands img:hover{
+
+    transform:scale(1.05);
+
+}
+
+
+.brand-item{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:20px;
+    height:120px;
+}
+
+.brand-item img{
+    max-width:100%;
+    max-height:70px;
+    width:auto;
+    height:auto;
+    transition:.3s ease;
+}
+
+.brand-item img:hover{
+    transform:scale(1.05);
+}
+
+.brandtxt{
+    font-size:18px;
+    font-weight:600;
+    margin-bottom:10px;
+}
+
+.brandtxt1{
+    font-size:38px;
+    font-weight:700;
+    line-height:1.2;
+}
 /* =========================
    TABLET RESPONSIVE
 ========================= */
@@ -708,7 +768,18 @@ overflow: hidden;
         justify-content: center;
         margin-bottom: 15px;
     }
+ .brands{
+        text-align:center;
+    }
 
+    .brandtxt,
+    .brandtxt1{
+        text-align:center !important;
+    }
+
+    .brandtxt1{
+        font-size:32px;
+    }
     .top-social{
         justify-content: center;
     }
@@ -747,7 +818,26 @@ overflow: hidden;
 }
 }
 @media (max-width: 767px){
+  .brands{
+        padding:60px 0;
+    }
 
+    .brand-item{
+        height:90px;
+        padding:15px;
+    }
+
+    .brand-item img{
+        max-height:55px;
+    }
+
+    .brandtxt{
+        font-size:16px;
+    }
+
+    .brandtxt1{
+        font-size:28px;
+    }
     .drive-wrapper{
         flex-direction: column;
         gap: 0;
@@ -839,7 +929,26 @@ overflow: hidden;
 ========================= */
 
 @media(max-width:576px){
+  .brands{
+        padding:60px 0;
+    }
 
+    .brand-item{
+        height:90px;
+        padding:15px;
+    }
+
+    .brand-item img{
+        max-height:55px;
+    }
+
+    .brandtxt{
+        font-size:16px;
+    }
+
+    .brandtxt1{
+        font-size:28px;
+    }
     .top-header{
         padding: 15px 0;
     }
