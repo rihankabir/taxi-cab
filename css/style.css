@@ -126,11 +126,18 @@ body{
   /* =========================
            CAROUSEL
         ========================= */
+#heroSlider{
+    position: relative;
+}
+       .slider-img{
 
-        .slider-img{
-            height: 100vh;
-            object-fit: cover;
-        }
+    width:100%;
+
+    height:90vh;
+
+    object-fit:cover;
+
+}
 
         .carousel-item{
             position: relative;
@@ -147,7 +154,7 @@ body{
         }
 
         /* CAPTION */
-        .custom-caption{
+       .custom-caption{
             position: absolute;
             top: 50%;
             left: 10%;
@@ -156,6 +163,8 @@ body{
             z-index: 2;
             max-width: 650px;
         }
+            
+            
 
         .custom-caption h5{
             color: #ffc61a;
@@ -196,18 +205,27 @@ body{
    CUSTOM SLIDER BUTTONS
 ========================= */
 .hero-slider{
-    padding-bottom: 40px;
+    position: relative;
+    padding-bottom: 60px;
 }
 .slider-controls{
-    position: absolute;
-    right: 50px;
-    top: 50%;
-    transform: translateY(-50%);
-    z-index: 10;
 
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+    position:absolute;
+
+    right:50px;
+
+    top:50%;
+
+    transform:translateY(-50%);
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:15px;
+
+    z-index:20;
+
 }
 
 .custom-slider-btn{
