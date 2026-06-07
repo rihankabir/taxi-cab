@@ -759,7 +759,9 @@ overflow: hidden;
 ========================= */
 
 @media(max-width:991px){
-
+ .custom-caption h1{
+            font-size: 55px;
+        }
     .top-header{
         text-align: center;
     }
@@ -929,6 +931,12 @@ overflow: hidden;
 ========================= */
 
 @media(max-width:576px){
+    .custom-caption h1{
+            font-size: 25px;
+        }
+        .hero-slider{
+            padding-bottom: 50px;
+        }
   .brands{
         padding:60px 0;
     }
@@ -1042,7 +1050,7 @@ overflow: hidden;
     }
 .hero-slider {
     
-    height: 54vh;
+    height: 70vh;
 
 }
     .slider-img {
