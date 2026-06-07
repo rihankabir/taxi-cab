@@ -1040,5 +1040,12 @@ overflow: hidden;
         font-size: 16px;
 
     }
+.hero-slider {
+    
+    height: 54vh;
 
+}
+    .slider-img {
+        height: 60vh;
+    }
 }
