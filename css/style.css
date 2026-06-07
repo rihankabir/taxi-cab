@@ -244,6 +244,7 @@ overflow: hidden;
     font-size: 20px;
 
     transition: .3s;
+    overflow: hidden;
 
     display: flex;
     align-items: center;
