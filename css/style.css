@@ -759,6 +759,77 @@ overflow: hidden;
     padding-bottom: 100px;
     background-color: #000;
 }
+.FTXT{
+    color: #f5b400;
+}
+.ftxtp{
+    color: #c7c7c7;
+    font-size: 16px;
+}
+
+.social-footer{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.social-footer a{
+    width: 35px;
+    height: 35px;
+    background: #222;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.social-footer a:hover{
+    background: #ffc61a;
+    color: #000;
+}
+.extxt{
+    color: #f5b400;
+}
+.active{
+    color: #f5b400;
+}
+.NEO{
+    color: #f5b400;
+}
+.neolink{
+    color: #ddd;
+}
+.neolink:hover{
+    color: #f5b400;
+}
+.ctxt{
+    color: #f5b400;
+}
+.adtxt{
+    color: #f5b400;
+}
+.address{
+    color: #c7c7c7;
+}
+.phone{
+    color: #f5b400;
+}
+.envelope{
+    color: #f5b400;
+}
+.emaillink{
+    color: #c7c7c7;
+}
+.emaillink:hover{
+    color: #f5b400;
+}
+.emaillink:active{
+    color: orange;
+}
 /* =========================
    TABLET RESPONSIVE
 ========================= */
