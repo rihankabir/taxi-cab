@@ -754,6 +754,11 @@ overflow: hidden;
     font-weight:700;
     line-height:1.2;
 }
+.footer{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #000;
+}
 /* =========================
    TABLET RESPONSIVE
 ========================= */
