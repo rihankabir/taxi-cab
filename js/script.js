@@ -83,3 +83,12 @@ $(document).ready(function(){
 });
 
 });
+$(window).on("load", function () {
+
+    setTimeout(function () {
+
+        $(".top-header").slideUp(500);
+
+    }, 6000);
+
+});
