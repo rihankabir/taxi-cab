@@ -757,7 +757,7 @@ overflow: hidden;
 .footer{
     padding-top: 100px;
     padding-bottom: 100px;
-    background-color: #000;
+    background-color: #161616;
 }
 .FTXT{
     color: #f5b400;
@@ -829,6 +829,14 @@ overflow: hidden;
 }
 .emaillink:active{
     color: orange;
+}
+.bottom-footer{
+    padding-top: 35px;
+    padding-bottom: 35px;
+    background-color: #000;
+}
+.ftxt{
+    color: #f2f2f2;
 }
 /* =========================
    TABLET RESPONSIVE
