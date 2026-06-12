@@ -859,7 +859,18 @@ overflow: hidden;
     justify-content: center;
     align-items: center;
 }
-
+.under-breadcrumb{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #cccccc;
+    color: #ddd;
+}
+.custom-breadcrumb .breadcrumb-item + .breadcrumb-item::before {
+    color: red;
+}
+.brtxt{
+    color: #fc0606 !important;
+}
 /* =========================
    TABLET RESPONSIVE
 ========================= */
