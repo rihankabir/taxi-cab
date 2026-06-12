@@ -839,6 +839,25 @@ overflow: hidden;
     color: #f2f2f2;
     font-size: 16px;
 }
+.breadcumb-about{
+    background: url('../images/about taxi.jpg');
+      background-size:cover;
+        background-position:center;
+        background-repeat: no-repeat;
+        height: 60vh;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+}
+.about-txt{
+    color: #ddd;
+}
+.breadcumb-about{
+    padding-top: 90px;
+    padding-bottom: 90px;
+    justify-content: center;
+    align-items: center;
+}
 
 /* =========================
    TABLET RESPONSIVE
