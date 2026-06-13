@@ -871,6 +871,10 @@ overflow: hidden;
 .brtxt{
     color: #fc0606 !important;
 }
+.intro{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
 /* =========================
    TABLET RESPONSIVE
 ========================= */
