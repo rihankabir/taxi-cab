@@ -879,6 +879,9 @@ overflow: hidden;
     font-size: 50px;
     color: #fdc304;
 }
+.counter{
+    color: #c96b00;
+}
 /* =========================
    TABLET RESPONSIVE
 ========================= */
@@ -1056,6 +1059,9 @@ overflow: hidden;
 ========================= */
 
 @media(max-width:576px){
+    .abtxt{
+        font-size: 13px;
+    }
     .custom-caption h1{
             font-size: 25px;
         }
