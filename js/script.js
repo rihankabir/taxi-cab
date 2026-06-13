@@ -92,3 +92,70 @@ $(window).on("load", function () {
     }, 6000);
 
 });
+
+
+$(document).ready(function () {
+
+    let counterStarted = false;
+
+    function startCounter() {
+
+        $(".counter").each(function () {
+
+            let $this = $(this);
+
+            let target = parseInt($this.data("target"));
+
+            let symbol = $this.data("symbol") || "";
+
+            $({ Counter: 0 }).animate({
+
+                Counter: target
+
+            }, {
+
+                duration: 2000,
+
+                easing: "swing",
+
+                step: function () {
+
+                    $this.text(Math.ceil(this.Counter) + symbol);
+
+                },
+
+                complete: function () {
+
+                    $this.text(target + symbol);
+
+                }
+
+            });
+
+        });
+
+    }
+
+    $(window).on("scroll load", function () {
+
+        if (counterStarted) return;
+
+        let sectionTop = $(".counter-section").offset().top;
+
+        let sectionHeight = $(".counter-section").outerHeight();
+
+        let scrollTop = $(window).scrollTop();
+
+        let windowHeight = $(window).height();
+
+        if (scrollTop + windowHeight > sectionTop + 100) {
+
+            counterStarted = true;
+
+            startCounter();
+
+        }
+
+    });
+
+});
