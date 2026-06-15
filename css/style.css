@@ -938,6 +938,10 @@ overflow: hidden;
 
     transform:translateY(-8px) scale(1.08);
 }
+.intro{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
 /* =========================
    TABLET RESPONSIVE
 ========================= */
