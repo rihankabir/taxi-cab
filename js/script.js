@@ -240,3 +240,24 @@ $(document).ready(function () {
     checkCounter();
 
 });
+
+
+$(document).ready(function(){
+
+    $(".partner-logo").hover(
+
+        function(){
+
+            $(this).css("opacity","1");
+
+        },
+
+        function(){
+
+            $(this).css("opacity",".8");
+
+        }
+
+    );
+
+});
