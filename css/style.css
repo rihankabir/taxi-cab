@@ -943,6 +943,17 @@ overflow: hidden;
 ========================= */
 
 @media(max-width:991px){
+    .partner-section{
+
+padding:60px 0;
+
+}
+
+.partner-logo{
+
+max-width:140px;
+
+}
  .custom-caption h1{
             font-size: 55px;
         }
@@ -1004,6 +1015,18 @@ overflow: hidden;
 }
 }
 @media (max-width: 767px){
+    .partner-section{
+
+padding:50px 0;
+
+}
+
+.partner-logo{
+
+max-width:120px;
+
+}
+
   .brands{
         padding:60px 0;
     }
