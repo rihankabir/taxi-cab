@@ -261,3 +261,44 @@ $(document).ready(function(){
     );
 
 });
+
+
+$('.testimonial_slider').owlCarousel({
+
+    loop:true,
+    margin:30,
+    nav:false,
+    dots:false,
+    autoplay:true,
+    autoplayTimeout:4000,
+    smartSpeed:800,
+
+    responsive:{
+
+        0:{
+            items:1
+        },
+
+        768:{
+            items:2
+        },
+
+        1200:{
+            items:2
+        }
+
+    }
+
+});
+
+$('.testimonial_next').click(function(){
+
+    $('.testimonial_slider').trigger('next.owl.carousel');
+
+});
+
+$('.testimonial_prev').click(function(){
+
+    $('.testimonial_slider').trigger('prev.owl.carousel');
+
+});
