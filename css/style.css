@@ -1216,7 +1216,7 @@ overflow: hidden;
 }
 .feature-area{
 
-    background:url("images/taxi-bg.jpg") center center/cover no-repeat;
+    background:url("../images/taksi.jpg") center center/cover no-repeat;
     background-attachment:fixed;
     position:relative;
 
