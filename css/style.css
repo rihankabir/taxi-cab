@@ -946,6 +946,149 @@ overflow: hidden;
     padding-top: 100px;
     padding-bottom: 100px;
 }
+.testimonial_area{
+    background:#f4f4f4;
+}
+
+.section_heading h2{
+    font-size:52px;
+    font-weight:700;
+    color:#3b3b3b;
+}
+
+.heading_line{
+    display:flex;
+    gap:6px;
+    margin-top:12px;
+}
+
+.heading_line span{
+    width:18px;
+    height:4px;
+    background:#0d2d4d;
+}
+
+.heading_line span:nth-child(2){
+    width:28px;
+    background:#ff3654;
+}
+
+.heading_line span:nth-child(3){
+    width:18px;
+    background:#0d2d4d;
+}
+
+.testimonial_prev,
+.testimonial_next{
+
+    width:48px;
+    height:48px;
+    border:none;
+    color:#fff;
+    background:#ff3654;
+    border-radius:4px;
+    transition:.3s;
+    margin-left:10px;
+}
+
+.testimonial_prev:hover,
+.testimonial_next:hover{
+    background:#0d2d4d;
+}
+
+.testimonial_item{
+
+    background:#fff;
+    text-align:center;
+    padding:70px 40px 45px;
+    margin-top:45px;
+    position:relative;
+    transition:.3s;
+    border-radius:3px;
+}
+
+.testimonial_item:hover{
+
+    transform:translateY(-8px);
+    box-shadow:0 15px 40px rgba(0,0,0,.08);
+
+}
+
+.testimonial_img{
+
+    width:86px;
+    height:86px;
+    border-radius:50%;
+    overflow:hidden;
+    position:absolute;
+    left:50%;
+    top:-43px;
+    transform:translateX(-50%);
+    border:5px solid #fff;
+
+}
+
+.testimonial_img img{
+
+    width:100%;
+    height:100%;
+    object-fit:cover;
+
+}
+
+.testimonial_item h4{
+
+    margin-bottom:10px;
+    color:#444;
+    font-size:30px;
+    font-weight:500;
+
+}
+
+.rating{
+
+    margin-bottom:25px;
+}
+
+.rating i{
+
+    color:#ff3654;
+    font-size:14px;
+}
+
+.testimonial_item p{
+
+    color:#777;
+    line-height:32px;
+    font-size:18px;
+    font-style:italic;
+
+}
+
+.owl-stage{
+    display:flex;
+}
+
+.owl-item{
+    padding:15px;
+}
+
+@media(max-width:991px){
+
+.section_heading{
+text-align:center;
+margin-bottom:20px;
+}
+
+.heading_line{
+justify-content:center;
+}
+
+.section_heading h2{
+font-size:42px;
+}
+
+}
 /* =========================
    TABLET RESPONSIVE
 ========================= */
