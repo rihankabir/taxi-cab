@@ -1302,6 +1302,19 @@ justify-content:center;
 .section_heading h2{
 font-size:42px;
 }
+.driver-img{
+
+width:250px;
+height:250px;
+
+}
+
+.section-title h2{
+
+font-size:48px;
+
+}
+
 }
 @media (max-width: 767px){
     .partner-section{
@@ -1420,6 +1433,31 @@ max-width:120px;
     object-fit:cover;
 
 }
+.driver-img{
+
+width:220px;
+height:220px;
+
+}
+
+.section-title h2{
+
+font-size:40px;
+
+}
+
+.driver-box h4{
+
+font-size:28px;
+
+}
+
+.driver-box span{
+
+font-size:18px;
+
+}
+
 }
 
 /* =========================
@@ -1583,4 +1621,34 @@ font-size:25px;
 font-size:16px;
 line-height:28px;
 }
+.driver-img{
+
+width:200px;
+height:200px;
+
+}
+
+.section-title h2{
+
+font-size:34px;
+
+}
+
+.section-title p{
+
+font-size:16px;
+
+}
+
+
+}
+@media(max-width:1200px){
+
+.driver-img{
+
+width:220px;
+height:220px;
+
+}
+
 }
