@@ -1073,22 +1073,7 @@ overflow: hidden;
     padding:15px;
 }
 
-@media(max-width:991px){
 
-.section_heading{
-text-align:center;
-margin-bottom:20px;
-}
-
-.heading_line{
-justify-content:center;
-}
-
-.section_heading h2{
-font-size:42px;
-}
-
-}
 /* =========================
    TABLET RESPONSIVE
 ========================= */
@@ -1163,6 +1148,18 @@ max-width:140px;
 
     object-fit:cover;
 
+}
+.section_heading{
+text-align:center;
+margin-bottom:20px;
+}
+
+.heading_line{
+justify-content:center;
+}
+
+.section_heading h2{
+font-size:42px;
 }
 }
 @media (max-width: 767px){
@@ -1427,5 +1424,22 @@ max-width:100px;
 
 padding:40px 0;
 
+}
+
+.section_heading h2{
+font-size:34px;
+}
+
+.testimonial_item{
+padding:65px 20px 35px;
+}
+
+.testimonial_item h4{
+font-size:25px;
+}
+
+.testimonial_item p{
+font-size:16px;
+line-height:28px;
 }
 }
