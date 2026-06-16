@@ -1214,6 +1214,81 @@ overflow: hidden;
     font-size:20px;
 
 }
+.feature-area{
+
+    background:url("images/taxi-bg.jpg") center center/cover no-repeat;
+    background-attachment:fixed;
+    position:relative;
+
+}
+
+.feature-overlay{
+
+    background:rgba(233,53,81,.88);
+    padding:60px 0;
+
+}
+
+.feature-box{
+
+    display:flex;
+    align-items:center;
+    gap:25px;
+
+}
+
+.feature-icon{
+
+    width:90px;
+    height:90px;
+    border:2px solid rgba(255,255,255,.7);
+    border-radius:50%;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    flex-shrink:0;
+
+}
+
+.feature-icon i{
+
+    font-size:45px;
+    color:#fff;
+
+}
+
+.feature-content h3{
+
+    color:#fff;
+    font-size:34px;
+    font-weight:600;
+    margin-bottom:10px;
+
+}
+
+.feature-content p{
+
+    color:#fff;
+    font-size:18px;
+    line-height:30px;
+    margin:0;
+
+}
+
+.feature-box:hover .feature-icon{
+
+    background:#fff;
+    transition:.4s;
+
+}
+
+.feature-box:hover .feature-icon i{
+
+    color:#e93551;
+}
+
 
 /* =========================
    TABLET RESPONSIVE
