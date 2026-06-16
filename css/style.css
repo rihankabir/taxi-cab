@@ -1389,7 +1389,11 @@ height:250px;
 font-size:48px;
 
 }
+.feature-box{
 
+margin-bottom:35px;
+
+}
 }
 @media (max-width: 767px){
     .partner-section{
@@ -1397,6 +1401,38 @@ font-size:48px;
 padding:50px 0;
 
 }
+.feature-box{
+
+flex-direction:column;
+text-align:center;
+
+}
+
+.feature-content h3{
+
+font-size:28px;
+
+}
+
+.feature-content p{
+
+font-size:16px;
+
+}
+
+.feature-icon{
+
+width:80px;
+height:80px;
+
+}
+
+.feature-icon i{
+
+font-size:36px;
+
+}
+
 
 .partner-logo{
 
