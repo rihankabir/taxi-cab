@@ -850,6 +850,17 @@ overflow: hidden;
         align-items: center;
         text-align: center;
 }
+.service-breadcrumb{
+    background: url('../images/service taxi.jpg');
+      background-size:cover;
+        background-position:center;
+        background-repeat: no-repeat;
+        height: 60vh;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+}
+
 .about-txt{
     color: #ddd;
     font-size: 45px;
