@@ -1439,6 +1439,88 @@ overflow: hidden;
     color:#fff;
 
 }
+.cab_advantages_area{
+    background:url("images/taxi-bg.jpg") center center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+}
+
+.cab_advantages_overlay{
+    background:rgba(232,57,84,.88);
+    padding:60px 0;
+}
+
+.cab_advantage_box{
+    display:flex;
+    align-items:center;
+    gap:25px;
+    transition:.4s;
+}
+
+.cab_advantage_icon{
+
+    width:90px;
+    height:90px;
+    border:2px solid rgba(255,255,255,.7);
+    border-radius:50%;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    flex-shrink:0;
+
+    transition:.4s;
+}
+
+.cab_advantage_icon i{
+
+    color:#fff;
+    font-size:42px;
+    transition:.4s;
+
+}
+
+.cab_advantage_content h3{
+
+    color:#fff;
+    font-size:34px;
+    font-weight:600;
+    margin-bottom:10px;
+
+}
+
+.cab_advantage_content p{
+
+    color:#fff;
+    font-size:18px;
+    line-height:30px;
+    margin:0;
+
+}
+
+.cab_advantage_box:hover .cab_advantage_icon{
+
+    background:#fff;
+    transform:rotate(360deg);
+
+}
+
+.cab_advantage_box:hover .cab_advantage_icon i{
+
+    color:#e83a56;
+
+}
+
+.cab_advantages_bottom{
+
+    height:34px;
+    background:#19324f;
+
+}
+
+
 
 /* =========================
    TABLET RESPONSIVE
