@@ -1710,6 +1710,20 @@ textarea.cab_input{
     transform:translateY(-3px);
 
 }
+.cab_map_section{
+
+    overflow:hidden;
+
+}
+
+.cab_map_section iframe{
+
+    width:100%;
+    height:450px;
+    display:block;
+    border:0;
+
+}
 
 
 /* =========================
