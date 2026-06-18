@@ -1375,7 +1375,7 @@ overflow: hidden;
     position:absolute;
     width:36px;
     height:36px;
-    background:#ef3d5a;
+    background:#fbff10;
     opacity:.25;
     left:50%;
     top:50%;
@@ -1410,7 +1410,7 @@ overflow: hidden;
     bottom:-24px;
     transform:translateX(-50%);
 
-    background:#ef3d5a;
+    background:#fca402;
     color:#fff;
 
     border-radius:50%;
