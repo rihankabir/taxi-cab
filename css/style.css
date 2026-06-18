@@ -1553,6 +1553,25 @@ margin-bottom:35px;
 }
 }
 @media (max-width: 767px){
+.section-title h2{
+
+font-size:38px;
+
+}
+
+.service-box{
+
+padding:45px 25px 65px;
+
+}
+
+.service-box h3{
+
+font-size:28px;
+
+}
+
+
     .partner-section{
 
 padding:50px 0;
