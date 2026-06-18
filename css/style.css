@@ -1445,6 +1445,13 @@ overflow: hidden;
 ========================= */
 
 @media(max-width:991px){
+.section-title h2{
+
+font-size:46px;
+
+}
+
+
     .partner-section{
 
 padding:60px 0;
