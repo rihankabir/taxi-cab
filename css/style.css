@@ -1830,6 +1830,12 @@ font-size:48px;
 margin-bottom:35px;
 
 }
+.cab_contact_card{
+
+margin-bottom:30px;
+
+}
+
 }
 @media (max-width: 767px){
 .section-title h2{
@@ -2056,6 +2062,19 @@ font-size:18px;
     line-height:28px;
 
 }
+.cab_contact_heading h2{
+
+font-size:40px;
+
+}
+
+.cab_form_card,
+.cab_contact_card{
+
+padding:30px;
+
+}
+
 
 }
 
