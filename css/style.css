@@ -1519,7 +1519,197 @@ overflow: hidden;
     background:#19324f;
 
 }
+.cab_contact_section{
 
+    background:#f7f7f7;
+}
+
+.cab_contact_heading h2{
+
+    font-size:55px;
+    font-weight:700;
+    color:#24344d;
+
+}
+
+.cab_contact_heading p{
+
+    max-width:650px;
+    margin:auto;
+    color:#777;
+    font-size:18px;
+
+}
+
+.cab_contact_shape{
+
+    display:flex;
+    justify-content:center;
+    gap:6px;
+    margin:18px 0;
+
+}
+
+.cab_contact_shape span{
+
+    width:18px;
+    height:4px;
+    background:#223654;
+
+}
+
+.cab_contact_shape span:nth-child(2){
+
+    width:30px;
+    background:#e63950;
+
+}
+
+.cab_contact_card{
+
+    background:#fff;
+    border-radius:20px;
+    padding:40px;
+    box-shadow:0 15px 45px rgba(0,0,0,.08);
+
+}
+
+.cab_info_item{
+
+    display:flex;
+    gap:20px;
+    margin-bottom:30px;
+
+}
+
+.cab_info_icon{
+
+    width:65px;
+    height:65px;
+    border-radius:50%;
+    background:#e63950;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    flex-shrink:0;
+    transition:.4s;
+
+}
+
+.cab_info_icon i{
+
+    color:#fff;
+    font-size:24px;
+
+}
+
+.cab_info_item:hover .cab_info_icon{
+
+    transform:rotate(360deg);
+    background:#1f3556;
+
+}
+
+.cab_info_item h4{
+
+    margin-bottom:6px;
+    color:#223654;
+    font-weight:600;
+
+}
+
+.cab_info_item p{
+
+    margin:0;
+    color:#666;
+
+}
+
+.cab_social_area{
+
+    margin-top:20px;
+
+}
+
+.cab_social_area a{
+
+    width:45px;
+    height:45px;
+    border-radius:50%;
+    background:#223654;
+
+    color:#fff;
+
+    display:inline-flex;
+    justify-content:center;
+    align-items:center;
+
+    margin-right:10px;
+
+    transition:.3s;
+
+    text-decoration:none;
+
+}
+
+.cab_social_area a:hover{
+
+    background:#e63950;
+    transform:translateY(-5px);
+
+}
+
+.cab_form_card{
+
+    background:#fff;
+    padding:45px;
+    border-radius:20px;
+    box-shadow:0 15px 45px rgba(0,0,0,.08);
+
+}
+
+.cab_input{
+
+    height:58px;
+    border-radius:12px;
+    border:1px solid #ddd;
+    padding:15px;
+
+}
+
+textarea.cab_input{
+
+    height:auto;
+
+}
+
+.cab_input:focus{
+
+    border-color:#e63950;
+    box-shadow:none;
+
+}
+
+.cab_submit_btn{
+
+    border:none;
+    background:#e63950;
+    color:#fff;
+    padding:15px 40px;
+    border-radius:50px;
+    font-weight:600;
+    transition:.4s;
+
+}
+
+.cab_submit_btn:hover{
+
+    background:#223654;
+    transform:translateY(-3px);
+
+}
 
 
 /* =========================
