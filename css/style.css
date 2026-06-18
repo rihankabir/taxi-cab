@@ -1527,6 +1527,13 @@ overflow: hidden;
 ========================= */
 
 @media(max-width:991px){
+
+    .cab_advantage_box{
+
+    margin-bottom:30px;
+
+}
+
 .section-title h2{
 
 font-size:46px;
