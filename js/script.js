@@ -303,29 +303,3 @@ $('.testimonial_prev').click(function(){
 
 });
 
-document.getElementById("searchToggle").addEventListener("click", function(e) {
-    e.preventDefault();
-    
-    let box = document.getElementById("searchBox");
-
-    if (box.style.display === "block") {
-        box.style.display = "none";
-    } else {
-        box.style.display = "block";
-    }
-});
-
-document.getElementById("searchInput").addEventListener("keyup", function() {
-    let input = this.value.toLowerCase();
-    let elements = document.querySelectorAll("h1, h2, h3, p, .service-box");
-
-    elements.forEach(el => {
-        let text = el.innerText.toLowerCase();
-
-        if (text.includes(input) && input !== "") {
-            el.style.background = "yellow";
-        } else {
-            el.style.background = "transparent";
-        }
-    });
-});
