@@ -1726,8 +1726,8 @@ textarea.cab_input{
 }
 .search-box {
     position: absolute;
-    top: 70px;
-    right: 20px;
+    top: 89px;
+    right: 120px;
     display: none;
     background: #fff;
     padding: 10px;
@@ -2113,11 +2113,22 @@ padding:30px;
 ========================= */
 
 @media(max-width:576px){
+
+    .search-box {
+    position: absolute;
+    top: 344px;
+    right: 3px;
+    display: none;
+    background: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
     .abtxt{
         font-size: 13px;
     }
     .custom-caption h1{
-            font-size: 25px;
+            font-size: 17px;
         }
         .hero-slider{
             padding-bottom: 50px;
@@ -2161,7 +2172,7 @@ padding:30px;
         font-size: 13px;
     }
   .slider-img{
-                height: 100vh;
+                height: 69vh !important;
             }
 
             .custom-caption{
@@ -2170,15 +2181,15 @@ padding:30px;
             }
 
             .custom-caption h1{
-                font-size: 32px;
+                font-size: 19px;
             }
 
             .custom-caption h5{
-                font-size: 18px;
+                font-size: 14px;
             }
 
             .custom-caption p{
-                font-size: 15px;
+                font-size: 13px;
             }
 
             .slider-btn{
