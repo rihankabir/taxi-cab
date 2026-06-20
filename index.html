@@ -958,31 +958,33 @@ No matter if you are an individual or a group of people, large or small, busines
 <!--bottom footer section ends-->
 
 <script>
-document.getElementById("searchToggle").addEventListener("click", function(e) {
-    e.preventDefault();
-    
-    let box = document.getElementById("searchBox");
+document.addEventListener("DOMContentLoaded", function () {
 
-    if (box.style.display === "block") {
-        box.style.display = "none";
-    } else {
-        box.style.display = "block";
-    }
-});
+    const toggle = document.getElementById("searchToggle");
+    const box = document.getElementById("searchBox");
+    const input = document.getElementById("searchInput");
 
-document.getElementById("searchInput").addEventListener("keyup", function() {
-    let input = this.value.toLowerCase();
-    let elements = document.querySelectorAll("h1, h2, h3, p, .service-box");
-
-    elements.forEach(el => {
-        let text = el.innerText.toLowerCase();
-
-        if (text.includes(input) && input !== "") {
-            el.style.background = "yellow";
-        } else {
-            el.style.background = "transparent";
-        }
+    toggle.addEventListener("click", function (e) {
+        e.preventDefault();
+        box.style.display = (box.style.display === "block") ? "none" : "block";
+        input.focus();
     });
+
+    input.addEventListener("keyup", function () {
+        let value = this.value.toLowerCase();
+        let elements = document.querySelectorAll("h1, h2, h3, p");
+
+        elements.forEach(el => {
+            let text = el.innerText.toLowerCase();
+
+            if (value && text.includes(value)) {
+                el.style.background = "yellow";
+            } else {
+                el.style.background = "";
+            }
+        });
+    });
+
 });
 </script>
 
