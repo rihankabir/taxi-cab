@@ -303,3 +303,8 @@ $('.testimonial_prev').click(function(){
 
 });
 
+$(window).on("load", function(){
+
+    $("#loader").fadeOut();
+
+});
