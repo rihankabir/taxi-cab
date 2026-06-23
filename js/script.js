@@ -308,3 +308,63 @@ $(window).on("load", function(){
     $("#loader").fadeOut();
 
 });
+
+
+
+$(document).ready(function(){
+
+$("#loginfrm").submit((e) => {
+    e.preventDefault();
+    let name = $("#name").val().trim();
+    let email = $("#email").val().trim();
+    let phonenumber = $("#phonenumber").val().trim();
+
+    let subject = $("#subject").val();
+    let texts = $("#texts").val();
+let isValid = true;
+
+if(email === ""){
+$(".emailerror").text("Enter a valid email").css("color", "red");
+isValid = false;
+}
+if(name === ""){
+    $(".nameerror").text("Enter a valid name").css("color", "red");
+    isValid = false;
+}
+if(subject === ""){
+    $(".subjecterror").text("subject mandatory").css("color", "red");
+    isValid = false
+}
+if(phonenumber.length < 5){
+    $(".phonenumbererror").text("Enter a valid phonenumber").css("color", "red");
+    isValid = false;
+}
+if(texts === ""){
+    $(".texterror").text("Enter your texts").css("color", "red");
+    isValid = false;
+}
+if(isValid){
+    $(".successmsg").text("Data Submitted Successfully").css("color", "green");
+    $("#name").val("");
+    $("#email").val("");
+    $("#phonenumber").val("");
+
+     $("#subject").val("");
+     $("#texts").val("");
+     $(".texterror").text("");
+     $(".phonenumbererror").text("");
+     $(".subjecterror").text("");
+     $(".nameerror").text("");
+     $(".emailerror").text("");
+
+     setTimeout(
+        () => {
+$(".successmsg").text("");
+        }, 2000
+     )
+}
+
+} )
+
+
+    });
