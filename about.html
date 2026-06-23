@@ -102,11 +102,13 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
             <div class="nav-right d-flex ms-auto  align-items-center gap-3">
 
                 <!-- SEARCH ICON -->
-                <a href="#" class="search-icon">
+ <a href="#" class="search-icon" id="searchToggle">
+    <i class="fa-solid fa-magnifying-glass"></i>
+</a>
 
-                    <i class="fa-solid fa-magnifying-glass"></i>
-
-                </a>
+<div class="search-box" id="searchBox">
+    <input type="text" id="searchInput" placeholder="Search..." />
+</div>
 
                 <!-- BOOK BUTTON -->
                 <a href="contact.html" class="book-btn">
